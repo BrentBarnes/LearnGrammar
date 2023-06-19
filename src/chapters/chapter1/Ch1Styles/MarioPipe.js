@@ -1,14 +1,18 @@
 import styled from '@emotion/styled'
 import MarioPipeAsset from '../../../assets/images/mario_pipe.png'
 
-const StyledMarioPipe = styled.div`
+function MarioPipe(props) {
+  const { xPosition } = props;
+
+  const StyledMarioPipe = styled.div`
   content: url(${MarioPipeAsset});
   height: 100px;
-  position: absolute;
-  bottom: 0px;
+  width: 73px;
+  margin-top: auto;
+  position: sticky;
+  left: ${xPosition}px;
+  z-index: -1;
 `;
-
-function MarioPipe() {
 
   return (
     <StyledMarioPipe />

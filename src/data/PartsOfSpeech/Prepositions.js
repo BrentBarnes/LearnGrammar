@@ -1,0 +1,32 @@
+const prepositions = [
+  'Above',
+  'Across',
+  'Against',
+  'Along',
+  'Among',
+  'Around',
+  'At',
+  'Before',
+  'Behind',
+  'Below',
+  'Beneath',
+  'Beside',
+  'Between',
+  'By',
+  'Down',
+  'From',
+  'In',
+  'Into',
+  'Near',
+  'Of',
+  'Off',
+  'On',
+  'To',
+  'Toward',
+  'Under',
+  'Upon',
+  'With',
+  'Within'
+];
+
+export default prepositions;
